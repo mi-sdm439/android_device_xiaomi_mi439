@@ -1,8 +1,3 @@
-# DT2W
-type dt2w_ctrl, fs_type, proc_type;
-
 # FM
 type sysfs_fm_lan, fs_type, sysfs_type;
 
-# Huaqin
-type huaqin_sysfs, fs_type, sysfs_type;
