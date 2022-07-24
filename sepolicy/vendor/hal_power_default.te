@@ -1,2 +1,0 @@
-# DT2W
-allow hal_power_default dt2w_ctrl:file rw_file_perms;
