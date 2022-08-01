@@ -1,0 +1,26 @@
+[
+  {
+    "repository" : "device_xiaomi_sdm439-common",
+    "target_path": "device/xiaomi/sdm439-common",
+    "remote"     : "pixel-devices",
+    "branch"     : "twelve"
+  },
+  {
+    "repository" : "vendor_xiaomi_sdm439-common",
+    "target_path": "vendor/xiaomi/sdm439-common",
+    "remote"     : "pixel-devices-blobs",
+    "branch"     : "twelve"
+  },
+{
+    "repository" : "vendor_xiaomi_mi439",
+    "target_path": "vendor/xiaomi/mi439",
+    "remote"     : "pixel-devices-blobs",
+    "branch"     : "twelve"
+  },
+  {
+    "repository" : "kernel_xiaomi_sdm439",
+    "target_path": "kernel/xiaomi/sdm439",
+    "remote"     : "pixel-devices",
+    "branch"     : "twelve"
+  }
+]

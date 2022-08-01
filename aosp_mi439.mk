@@ -9,20 +9,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Pixel Experience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from Mi439 device
 $(call inherit-product, device/xiaomi/mi439/device.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    xiaomi_pine_overlay_lineage \
-    xiaomi_olive_overlay_lineage
+    xiaomi_pine_overlay_aosp \
+    xiaomi_olive_overlay_aosp
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mi439
-PRODUCT_NAME := lineage_mi439
+PRODUCT_NAME := aosp_mi439
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439

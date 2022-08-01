@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mi439.mk
+    $(LOCAL_DIR)/aosp_mi439.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mi439-user \
-    lineage_mi439-userdebug \
-    lineage_mi439-eng
+    aosp_mi439-user \
+    aosp_mi439-userdebug \
+    aosp_mi439-eng
