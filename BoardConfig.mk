@@ -10,7 +10,7 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/mi439
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := pine,olive,olivelite,olivewood,olives,mi439,Mi439
+TARGET_OTA_ASSERT_DEVICE := olive,olivelite,olivewood,olives,mi439,Mi439
 
 # Display
 TARGET_SCREEN_DENSITY := 320
